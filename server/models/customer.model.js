@@ -2,8 +2,12 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const { isEmail } = require('validator');
 
-const UserSchema = new Schema({
-    name: {
+const CustomerSchema = new Schema({
+    firstName: {
+        type: String,
+        required: true
+    }, 
+	lastName: {
         type: String,
         required: true
     },
@@ -25,4 +29,4 @@ const UserSchema = new Schema({
     }
 },{timestamps: true});
 
-module.exports = User = mongoose.model('user',UserSchema);
+module.exports = Customer = mongoose.model('customer',CustomerSchema);
