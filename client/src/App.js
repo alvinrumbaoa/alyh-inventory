@@ -10,7 +10,7 @@ function App() {
             <Home/> 
             {/* Landing Page */}
             {/* Login and Registration */}
-
+            
 
             {/* Admin */}
             {/* Customer */}
