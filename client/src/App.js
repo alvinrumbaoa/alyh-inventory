@@ -1,26 +1,31 @@
 import './App.css';
-import { Switch, Route, } from "react-router-dom";
-import Home from "./landing/Home"
-
+import {Switch, Route, } from "react-router-dom";
+import Home from "./landing/Home";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+import About from "./landing/About";
+import Services from "./landing/Services";
+import Contactus from "./landing/Contactus"
 
 function App() {
   return (
     <div className="App">
-        <header className="App-header">
-             {/* Landing Page */}
-            <Home/> 
-          
+          <Switch >
+                {/* Landing Homepage */}
+                <Route path = "/" component = { Home }/>  
+                <Route path = "/about" component = { About }/>  
+                <Route path = "/contactus" component = { Contactus }/>   
+                <Route path = "/services" component = { Services }/>  
 
-
-            {/* Login and Registration */}
-            
-
-            {/* Admin */}
-            {/* Customer */}
-            {/* Item Inquiry */}
-            {/* Order */} 
-            {/* Cart  */}
-        </header>
+                {/* Login and Registration */}
+                <Route path = "/login" component = { Login }/> 
+                <Route path = "/signup" component = { Signup }/>
+                  {/* Admin */}
+                  {/* Customer */}
+                  {/* Item Inquiry */}
+                  {/* Order */} 
+                  {/* Cart  */}
+            </Switch >
     </div>
   );
 }
