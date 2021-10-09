@@ -1,14 +1,17 @@
 import './App.css';
 import { Switch, Route, } from "react-router-dom";
-import Home from "./views/Home"
+import Home from "./landing/Home"
 
 
 function App() {
   return (
     <div className="App">
         <header className="App-header">
+             {/* Landing Page */}
             <Home/> 
-            {/* Landing Page */}
+          
+
+
             {/* Login and Registration */}
             
 
