@@ -7,7 +7,6 @@ Vision: Able to easily track faster and eliminate redundancy.
 
 # alyh-inventory
 
-
 Landing Page 
 
 Administrator control, monitor and view sales, database, and customer database, inventory management
@@ -87,3 +86,4 @@ EASY Folder Lookup
 
 billing had denial tracking payments and recording sales.
 dont have exact feature but will develop faster procesing for claims and billing
+

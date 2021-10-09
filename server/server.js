@@ -1,7 +1,8 @@
+const dotenv = require('dotenv').config();
 const express = require('express'); // import express 
 const app = express(); 
 const cors = require("cors");   //middleware
-const port = 8000;   
+const PORT = process.env.PORT || 3000;
 app.use(cors());               
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
@@ -15,4 +16,4 @@ require("./routes/order.routes")(app);
 require("./routes/user.routes")(app);
 require("./routes/cart.routes")(app);
 
-app.listen(port , () => console.log("Connected to  localhost " + port ));
+app.listen(PORT, () => console.log("Connected to  localhost "));

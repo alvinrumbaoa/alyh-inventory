@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const dbName = "inventoryDB"; 
+const dbName = "inventoryDb";
 
-mongoose.connect("mongodb+srv://xenofy:Senpou_23@cluster0.8i5v5.mongodb.net/" + dbName + "?retryWrites=true&w=majoritye", { 
+mongoose.connect("mongodb://localhost/" + dbName, { 
         useNewUrlParser: true,
         useUnifiedTopology: true
 

@@ -1,0 +1,29 @@
+.navigation-container{
+	width: 100%;
+	padding: 20px;
+	
+}
+
+.navigation-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+
+.list-item {
+    flex: 1 0 35%;
+    text-align: center;
+    font-size: 1rem;
+	border-radius: 20px;
+	padding: 5px;
+}
+
