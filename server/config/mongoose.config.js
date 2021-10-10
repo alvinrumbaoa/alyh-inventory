@@ -1,10 +1,8 @@
 const mongoose = require("mongoose");
-const dbName = "inventoryDb";
 
-mongoose.connect("mongodb://localhost/" + dbName, { 
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-
+mongoose.connect("mongodb://localhost/" + process.env.DB_NAME, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 })
-        .then(() => console.log("Established connection with "+ dbName))
-        .catch(err => console.log("Something wrong when connecting with " +dbName));
+    .then(() => console.log("Connection established to database"))
+    .catch(err => console.log("Error connecting to database", err))
