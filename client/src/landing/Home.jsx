@@ -1,19 +1,25 @@
-import React from 'react';
-import '../styles/Home.css'
-import Header from './Header'
-import Footer from './Footer'
+import React ,{useEffect} from 'react';
+import '../styles/Home.css';
+import Header from './Header';
+import Footer from './Footer';
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Home = (props) =>{
 
+	useEffect(() =>{
+		Aos.init({duration: 2000})
+	},[])
+
+
 	return(
 		<div>
-			<div className="home-container">
+			<div data-aos="fade-down" className="home-container">
 				<Header/>				
-				
 				<div className="main-content">
 					<div className="left-main-content">
-						<h1>A CUTTING EDGE FUTURE INVENTORY SYSTEM </h1>
-						<p>Management made it more easier.</p>
+						<h1 className="main-h1">A CUTTING EDGE FUTURE INVENTORY SYSTEM </h1>
+						<h2>Management made it more easier.</h2>
 						<button className="btn-getstarted">GET STARTED NOW</button>
 					</div>
 					
@@ -24,32 +30,40 @@ const Home = (props) =>{
 			</div>
 
 			<div className="sub-container">
-				<div className="sub-content-card">
+				<div data-aos="zoom-in-down" className="sub-content-card">
 					<img src="/images/product-tour/bro.svg" alt="conmputer analytics" />
 					<h4>LOREM</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulum hendrerit aliquam urna, luctus. Quam non tellus nulla mollis eget sem netus.</p>
 				</div>
-				<div className="sub-content-card">
+				<div data-aos="zoom-in-down" data-aos-delay="500" className="sub-content-card">
 					<img src="/images/charts/bro.svg" alt="conmputer analytics" />
 					<h4>LOREM</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulum hendrerit aliquam urna, luctus. Quam non tellus nulla mollis eget sem netus.</p>
 				</div>
-				<div className="sub-content-card">
+				<div data-aos="zoom-in-down" data-aos-delay="800" className="sub-content-card">
 					<img src="/images/address/bro.svg" alt="conmputer analytics" />
 					<h4>LOREM</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulum hendrerit aliquam urna, luctus. Quam non tellus nulla mollis eget sem netus.</p>
 				</div>
 			</div>
-
-			<div className="services-container">
+			<div data-aos="fade-up" className="sub-text">
+				<div>
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis adipiscing elit cras aliquam. Tortor in non scelerisque pretium, scelerisque hac cursus leo. </p>
+					<button className="btn-getstarted">GET FREE TRIAL</button>
+				</div>
+			</div>
+			<div data-aos="fade-up" className="services-container">
 				<div>
 					<h2>Services Content</h2>
 				</div>
 			</div>
 
-			<div className="testimonials-container">
+			<div data-aos="fade-up" className="testimonials-container">
 				<h1> Testimonies</h1>
 			</div>
+
+			
 			<Footer/>
 		</div>
 	)
