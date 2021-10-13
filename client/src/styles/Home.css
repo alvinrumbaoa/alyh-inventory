@@ -97,10 +97,12 @@
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	padding: 20px;
 	align-items: center;
-	margin:20px;		
+	background-image: url(../images/bg-services.jpg);		
 }
 .services-grid{	
+
 	width:100%;
 	justify-content:center;
 	align-items: center;
@@ -109,10 +111,12 @@
 	flex-wrap: wrap;
 }
 .services-card{
-	display: flexbox;
+	display: flex;
 	padding: 10px;
 	border-radius: 20px;
   	justify-content: center;
+	align-items: center;
+	background-color: #92E3A9;
 	margin: 40px;
 	width: 20vw;
 	height:30vh;
