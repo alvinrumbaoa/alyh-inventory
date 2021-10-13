@@ -20,7 +20,7 @@ return (
 			</ul>	
 			<button className="btn-login">Login</button>	
 		</div>
-s
+
 	</div>
 )
 }

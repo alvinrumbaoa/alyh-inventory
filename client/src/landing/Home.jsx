@@ -54,9 +54,35 @@ const Home = (props) =>{
 				</div>
 			</div>
 			<div data-aos="fade-up" className="services-container">
-				<div>
-					<h2>Services Content</h2>
+			<h1>WHY ALYH INVENTORY MANAGEMENT SYSTEM?</h1>
+				<div className="services-grid">
+			
+				<div className="services-card">
+					<img src="" alt="" className=""/>
+					<p>Customer Support Friendly</p>
 				</div>
+				<div className="services-card">
+					<img src="" alt="" className=""/>
+					<p>Warehouse Tracking System</p>
+				</div>
+				<div className="services-card">
+					<img src="" alt="" className=""/>
+					<p>Fast amd Secured Billing Management</p>
+				</div>
+				<div className="services-card">
+					<img src="" alt="" className=""/>
+					<p>Great Referral and Leads Feature</p>
+				</div>
+				<div className="services-card">
+					<img src="" alt="" className=""/>
+					<p>Administrator Dashboard</p>
+				</div>
+				<div className="services-card">
+					<img src="" alt="" className=""/>
+					<p>Cash Revenue Increase</p>
+				</div>
+				</div>
+			
 			</div>
 
 			<div data-aos="fade-up" className="testimonials-container">
