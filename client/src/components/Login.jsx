@@ -22,9 +22,9 @@ const About = () =>{
 	
 			<form>
 			<h1 className="login-main-text">Log In</h1>
-				<p>Username:</p><input type="text" value="Username" className="user-name"/>
-				<p>Password:</p><input type="password" value="Password" className="pass-word"/>
-				<button className="btn-getstarted">LOGIN</button>
+				<p>Username:</p><input type="text" className="user-name"/>
+				<p>Password:</p><input type="password" className="pass-word"/>
+				<button className="btn-login">LOGIN</button>
 				<p className="forgot-password"><Link to="/forgot">Forgot Username/Password?</Link></p>
 			</form>
 			<hr/>

@@ -59,27 +59,27 @@ const Home = (props) =>{
 			<h1>WHY ALYH INVENTORY MANAGEMENT SYSTEM?</h1>
 				<div className="services-grid">
 			
-				<div className="services-card">
+				<div data-aos="fade-down" className="services-card">
 					<img src="images/ri_customer-service-2-fill.svg" alt="" className=""/>
 					<p>Customer Support Friendly</p>
 				</div>
-				<div className="services-card">
+				<div data-aos="fade-down"  className="services-card">
 					<img src="images/ri_truck-line.svg" alt="" className=""/>
 					<p>Warehouse Tracking System</p>
 				</div>
-				<div className="services-card">
+				<div data-aos="fade-down"  className="services-card">
 					<img src="images/ri_secure-payment-line.svg" alt="" className=""/>
 					<p>Fast amd Secured Billing Management</p>
 				</div>
-				<div className="services-card">
+				<div data-aos="fade-down" className="services-card">
 					<img src="images/ri_arrow-up-down-fill.svg" alt="" className=""/>
 					<p>Great Referral and Leads Feature</p>
 				</div>
-				<div className="services-card">
+				<div data-aos="fade-down" className="services-card">
 					<img src="/images/ri_admin-line.svg" alt="" className=""/>
 					<p>Administrator Dashboard</p>
 				</div>
-				<div className="services-card">
+				<div data-aos="fade-down" className="services-card">
 					<img src="/images/ri_money-dollar-circle-line.svg" alt="" className=""/>
 					<p>Cash Revenue Increase</p>
 				</div>
