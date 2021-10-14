@@ -1,5 +1,8 @@
 import React from 'react';
 import '../styles/Header.css';
+import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Header = () =>{
 
@@ -16,9 +19,9 @@ return (
 						<li className="list-item">Service</li>
 						<li className="list-item">About</li>
 						<li className="list-item">Contact us</li>
-					
+						<li className="list-item"><Link to="/login">Login</Link></li>
 			</ul>	
-			<button className="btn-login">Login</button>	
+
 		</div>
 
 	</div>

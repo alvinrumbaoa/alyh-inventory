@@ -5,6 +5,8 @@ import Footer from './Footer';
 import Aos from "aos";
 import "aos/dist/aos.css"
 
+
+
 const Home = (props) =>{
 
 	useEffect(() =>{
