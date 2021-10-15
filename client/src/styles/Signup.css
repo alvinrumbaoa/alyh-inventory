@@ -1,0 +1,87 @@
+.signup-container{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/login-bg.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+	
+}
+
+.signup-card{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	height: 650px;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 3px 2px 3px black;
+	line-height: 1rem;
+	background-color: #f0f0f0b2;
+	
+}
+
+.forgot-password{
+	margin-top: 20px;
+}
+
+form{
+	padding: 10px;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+input{
+	color: gray;
+	border: 1px solid gray;
+	width: 12.6rem;
+	border-radius: 10px;
+	align-items: center;
+	margin: 10px;
+}
+
+.btn-signup{
+		width: 40%;
+		height: 2rem;
+		border-radius: 10px;
+		background-color: #1ADB40;
+		color: #fff;
+		box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.671);
+		font-family: 'Poppins', sans-serif;
+}
+
+.btn-signup{
+	width:35%;
+	height: 4rem;
+	border-radius: 10px;
+	background-color: #1A8FDD;
+	color: #fff;
+	box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.671);
+	font-family: 'Poppins', sans-serif;
+
+
+}
+
+.signup-main-text{
+	margin: 30px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.logo{
+	margin: 10px;
+}

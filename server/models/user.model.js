@@ -3,7 +3,16 @@ const Schema = mongoose.Schema;
 const { isEmail } = require('validator');
 
 const UserSchema = new Schema({
-    name: {
+    userName:{
+        type: String,
+        required: true,
+        minlength: [6, 'Username length must be at least 6 characters']
+    },
+    firstName: {
+        type: String,
+        required: true
+    },
+    lastName: {
         type: String,
         required: true
     },
@@ -19,10 +28,6 @@ const UserSchema = new Schema({
         required: [true, 'Please enter a valid password'],
         minlength: [6, 'Minimum password length must be 6 characters']
     },
-    register_date: {
-        type: Date,
-        default: Date.now
-    }
 },{timestamps: true});
 
 module.exports = User = mongoose.model('user',UserSchema);
