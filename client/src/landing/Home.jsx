@@ -11,12 +11,24 @@ const Home = (props) =>{
 
 	const quotes = {
 		0:{
-			client: "Ross St. Clair, Project Lead, D2W Logistics Project",
-			quote: "Having recently worked with Alvin on a class group project, I'm was really impressed with his high level of engagement and collaboration throughout the whole project. Alvin always made himself available for team meetings and was timely with his communication as well. His exceptional skill with CSS is what really brought the project together. His vision and aptitude created the wow factor that gave our project a very clean, polished, and professional look",
+			client: "Lorem ipsum",
+			quote: "HLorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibuluisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulu",
 		},
 		1: {
-			client: "Vanessa Baez, R1 Concepts",
-			quote: " You are a strong part of the team here at R1 forecast is important in making sure we have our highest sellers in stock and ready to be shipped out when customers order parts. I believe you have a lot of room to grow in learning different jobs here at R1. You recently began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+			client: "Ipsum Lorem",
+			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+		},   
+		2: {
+			client: "Ipsum Lorem",
+			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+		},   
+		3: {
+			client: "Ipsum Lorem",
+			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+		},   
+		4: {
+			client: "Ipsum Lorem",
+			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
 		},      
 	};
 
@@ -124,9 +136,7 @@ const Home = (props) =>{
 					
 					}
 				</div>	
-				<div data-aos="" className="city-wave">
-					<img src="/images/city wave.svg" alt="wave"	 width="1500"/> 	
-				</div>
+				
 				</div>
 					
 			</div>
