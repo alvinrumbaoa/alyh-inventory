@@ -89,9 +89,7 @@
 	line-height: 4rem;
 }
 
-.testimonials-container{
-	height: 30vh;
-}
+
 
 .services-container{
 	height: 65vh;
@@ -126,4 +124,64 @@
 	height:15vh;
 	box-shadow: 1px 3px 4px black;
 	
+}
+
+
+.testimonials-container{
+	height: 50vh;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: space-between;
+	background-color: #EAF1E5;	
+}
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+	padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+	align-content: center;
+	background-color: #EAF1E5;
+
+}
+
+
+.city-wave{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.carousel-btn {
+    display: flex;
+}
+
+.carousel-btn span {
+    height: 20px;
+    width: 20px;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.carousel-btn span::before {
+    background-color: #fff;
+    content: "";
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-btn span:hover::before {
+    background-color: #45454d;
+}
+
+.carousel-btn span[data-quote="${active}"]::before {
+    background-color: #45454d;
 }

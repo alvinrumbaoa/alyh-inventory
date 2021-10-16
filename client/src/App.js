@@ -1,8 +1,8 @@
 import './App.css';
 import {Switch, Route, } from "react-router-dom";
 import Home from "./landing/Home";
-import Login from "./components/Login";
-import Signup from "./components/Signup";
+import Login from "./login/Login";
+import Signup from "./login/Signup";
 import About from "./landing/About";
 import Services from "./landing/Services";
 import Contactus from "./landing/Contactus"
