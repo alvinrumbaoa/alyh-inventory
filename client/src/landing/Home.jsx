@@ -20,15 +20,15 @@ const Home = (props) =>{
 		},   
 		2: {
 			client: "Ipsum Lorem",
-			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+			quote: " Lore consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
 		},   
 		3: {
 			client: "Ipsum Lorem",
-			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+			quote: " Lorem ipsum  and healthy"
 		},   
 		4: {
 			client: "Ipsum Lorem",
-			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
+			quote: " Consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
 		},      
 	};
 
@@ -54,7 +54,7 @@ const Home = (props) =>{
 				<div className="main-content">
 					<div className="left-main-content">
 						<h1 className="main-h1">A CUTTING EDGE FUTURE INVENTORY SYSTEM </h1>
-						<h2>Management made it more easier.</h2>
+						<h2>Management made it more easier with ALYH Inventory.</h2>
 						<button className="btn-getstarted">GET STARTED NOW</button>
 					</div>
 					
@@ -122,26 +122,23 @@ const Home = (props) =>{
 
 			<div data-aos="fade-up" className="testimonials-container">
 				<div className="carousel-container">
-				<p className="quote-font">"{current.quote}"</p>
-				<p className="client-font">-{current.client}</p>
-				<div className="carousel-btn">
-					{
-						Object.keys(quotes).map(index => (
-							active?
-										<span onClick={e => handleClick(e)} data-quote={index} key={index}
+					<p className="quote-font">"{current.quote}"</p>
+					<p className="client-font">-{current.client}</p>
+					<div className="carousel-btn">
+						{
+							Object.keys(quotes).map(index => (
+								active?
+											<span onClick={e => handleClick(e)} data-quote={index} key={index}
+									/>
+								:<span onClick={e => handleClick(e)} data-quote={index} key={index}
 								/>
-							:<span onClick={e => handleClick(e)} data-quote={index} key={index}
-							/>
-						))
-					
-					}
-				</div>	
-				
+							))
+						
+						}
+					</div>	
 				</div>
 					
-			</div>
-
-			
+			</div>			
 			<Footer/>
 		</div>
 	)
