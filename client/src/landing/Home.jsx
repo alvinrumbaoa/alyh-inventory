@@ -11,23 +11,23 @@ const Home = (props) =>{
 
 	const quotes = {
 		0:{
-			client: "Lorem ipsum",
+			client: "Person 1",
 			quote: "HLorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibuluisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulu",
 		},
 		1: {
-			client: "Ipsum Lorem",
+			client: "Person 2",
 			quote: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
 		},   
 		2: {
-			client: "Ipsum Lorem",
+			client: "Person 3",
 			quote: " Lore consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
 		},   
 		3: {
-			client: "Ipsum Lorem",
+			client: "Person 4",
 			quote: " Lorem ipsum  and healthy"
 		},   
 		4: {
-			client: "Ipsum Lorem",
+			client: "Person 5",
 			quote: " Consectetur adipiscing elit. Ac volutpat vestibulutly began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
 		},      
 	};
@@ -67,24 +67,24 @@ const Home = (props) =>{
 			<div className="sub-container">
 				<div data-aos="zoom-in-down" className="sub-content-card">
 					<img src="/images/product-tour/bro.svg" alt="conmputer analytics" />
-					<h4>LOREM</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulum hendrerit aliquam urna, luctus. Quam non tellus nulla mollis eget sem netus.</p>
+					<h4>Powerful inventory Tracker</h4>
+					<p>Manage and track serialised and batched items.Track all deliveries in all lifecycle process.</p>
 				</div>
 				<div data-aos="zoom-in-down" data-aos-delay="500" className="sub-content-card">
 					<img src="/images/charts/bro.svg" alt="conmputer analytics" />
-					<h4>LOREM</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulum hendrerit aliquam urna, luctus. Quam non tellus nulla mollis eget sem netus.</p>
+					<h4>Advanced Sale Tools </h4>
+					<p>All in one sales tools helps solve problems. Able to track sales and monitor order count. price list comparison and perfect looking user friendly retail  marketing site.</p>
 				</div>
 				<div data-aos="zoom-in-down" data-aos-delay="800" className="sub-content-card">
 					<img src="/images/address/bro.svg" alt="conmputer analytics" />
-					<h4>LOREM</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac volutpat vestibulum hendrerit aliquam urna, luctus. Quam non tellus nulla mollis eget sem netus.</p>
+					<h4>Easy Distribution and Fulfilment</h4>
+					<p>Your Warehouse Logistic made it easier with easy tracking. delivery tracking provided to easily track your deliveries. easy monitoring and estimated delivery.</p>
 				</div>
 			</div>
 			<div data-aos="fade-up" className="sub-text">
 				<div>
-					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis adipiscing elit cras aliquam. Tortor in non scelerisque pretium, scelerisque hac cursus leo. </p>
+					<h1>Inventory Made it easier for your dream business.</h1>
+					<p>State-of-the-Art Multifunctional management for all types of businesses from Retail/Healthcare and many more. </p>
 					<button className="btn-getstarted">GET FREE TRIAL</button>
 				</div>
 			</div>
