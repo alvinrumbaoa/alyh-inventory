@@ -17,7 +17,7 @@ return (
 						<button className="button-item">Service</button>
 						<button className="button-item">About</button>
 						<button className="button-item">Contact us</button>
-						<button className="button-item"><Link to="/login">Login</Link></button>
+						<button className="button-item"><Link className="Link" to="/login">Login</Link></button>
 			</div>	
 
 		</div>

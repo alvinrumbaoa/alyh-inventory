@@ -24,11 +24,11 @@ const About = () =>{
 			<h1 className="login-main-text">Log In</h1>
 				<p>Username:</p><input type="text" className="user-name"/>
 				<p>Password:</p><input type="password" className="pass-word"/>
-				<button className="btn-login">LOGIN</button>
-				<p className="forgot-password"><Link to="/forgot">Forgot Username/Password?</Link></p>
+				<button className="btn-login"><Link className="Link-signup" to="/dashboard">LOGIN</Link></button>
+				<p className="forgot-password"><Link className="Link-forgot" to="/forgot">Forgot Username/Password?</Link></p>
 			</form>
 			<hr/>
-				<button className="btn-signup"><Link to="/signup">SIGN UP</Link></button>
+				<button className="btn-signup"><Link className="Link-signup" to="/signup">SIGN UP</Link></button>
 			
 		</div>		
 		

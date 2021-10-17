@@ -87,3 +87,16 @@ input{
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 }
+
+.Link-forgot{
+	text-decoration: none;
+	color:  rgba(55, 59, 55, 0.815);
+}
+.Link-forgot:hover{
+	text-decoration: none;
+	color:  rgba(55, 59, 55, 0.815);
+}
+.Link-signup{
+	text-decoration: none;
+	color:  #fff;
+}

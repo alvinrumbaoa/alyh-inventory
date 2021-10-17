@@ -18,6 +18,10 @@ const ItemSchema = new Schema({
         type: Number,
         required: true
     },
+    qoh:{
+        type: Number,
+        required: true
+    }
     date_added: {
         type: Date,
         default: Date.now

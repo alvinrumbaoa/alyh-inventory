@@ -5,6 +5,7 @@ import Login from "./login/Login";
 import Signup from "./login/Signup";
 import About from "./landing/About";
 import Services from "./landing/Services";
+import Dashboard from "./dashboard/Dashboard";
 import Contactus from "./landing/Contactus"
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
                 {/* Login and Registration */}
                 <Route path = "/login" component = { Login }/> 
                 <Route path = "/signup" component = { Signup }/>
-                  {/* Admin */}
+                <Route path = "/dashboard" component = { Dashboard }/>
                   {/* Customer */}
                   {/* Item Inquiry */}
                   {/* Order */} 
