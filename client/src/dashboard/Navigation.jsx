@@ -39,7 +39,7 @@ const Navigation  = () => {
 				<ul>
 					<li>View Invoices</li>
 					<li>Pending Billingt</li>
-					<li>Claims</li>
+					<li>Print Orders</li>
 				</ul>
 			<p>Referral</p>
 				<ul>
@@ -52,7 +52,20 @@ const Navigation  = () => {
 					<li>View All Physicianss</li>
 				</ul>
 			<p>Document</p>
+				<ul>
+					<li>Add Physician</li>
+					<li>View All Physicianss</li>
+				</ul>
 			<p>Vendors</p>
+				<ul>
+					<li>Add Vendor</li>
+					<li>View All Vendors</li>
+				</ul>
+				<p>Reports</p>
+				<ul>
+					<li>Monthly Report</li>
+					<li>Sales Report</li>
+				</ul>
 		</div>
 	)
 }

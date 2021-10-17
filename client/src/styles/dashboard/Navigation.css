@@ -1,0 +1,9 @@
+.dash-navigation{
+	height: 100vh;
+	top: 0;
+
+}
+
+.dash-navigation ul li{
+	display: none;
+}
