@@ -1,6 +1,6 @@
 
 .home-container{
-	height: 70vh;
+	min-height: 60vh;
 	
 }
 
@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
 
 .main-content{
-	height: 50vh;
+	height: 74vh;
 	display: flex;
 	flex-direction: row;
 	font-family: 'Podkova', serif;	
@@ -41,15 +41,17 @@
 	}
 
 .right-main-content{
-	width: 60%;
+	width: 50%;
 	display: flex;	
 	align-content: center;
 	justify-content:center;
+	align-items: center;
+
 }
 
 
 .sub-container{
-	height: 80vh;
+	min-height: 60vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-content: center;
@@ -60,7 +62,8 @@
 	display: flex;
 	flex-direction: column;
 	width: 300px;
-	height:400px;
+	height:380px;
+	padding: 20px;
 	border-radius: 20px;
 	align-content: center;
 	align-items: center;
@@ -75,7 +78,7 @@
 }
 
 .sub-text{
-	height: 50vh;
+	height: 40vh;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -92,7 +95,7 @@
 
 
 .services-container{
-	height: 65vh;
+	height: 60vh;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
@@ -125,7 +128,10 @@
 	box-shadow: 1px 3px 4px black;
 	
 }
-
+.services-card img{
+	height:100%;
+	padding: 10px;
+}
 
 .testimonials-container{
 	height: 50vh;
@@ -134,6 +140,13 @@
 	justify-content: center;
     align-items: center;
 	align-content: center;
+	background-image: url(../images/testimonial-bg.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
 }
 .carousel-container {
     display: flex;
@@ -142,15 +155,26 @@
     justify-content: center;
     align-items: center;
 	align-content: center;
-	background-color: #EAF1E5;
+	text-align: center;
 	width: 50%;
+	height: 70%;
+	margin: 10px;
+	padding: 50px;
+	border-radius: 40px;
+	background: rgba( 126, 211, 33, 0.1 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 6.5px );
+	-webkit-backdrop-filter: blur( 6.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
 }
 
 
 .city-wave{
 	display: flex;
 	justify-content: center;
-	background-image: url(../images/city-wave.svg);
+	
 }
 
 
@@ -162,22 +186,21 @@
 .carousel-btn span {
     height: 30px;
     width: 30px;
-    margin: 0 3px;
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-	background-image: url(../images/stars.svg);
+	background-image: url(../images/stars2.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
     cursor: pointer;
 }
 .carousel-btn span:hover {
-	background-image: url(../images/stars2.svg);
+	background-image: url(../images/stars.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);	
 }
 .carousel-btn span::before {
     

@@ -59,7 +59,7 @@ const Home = (props) =>{
 					</div>
 					
 					<div className="right-main-content">
-						<img src="/images/investment-data/amico.svg" alt="business-person"/>	
+						<img src="/images/investment-data/amico.svg" alt="business-person" width="300" height="300" />	
 					</div>	
 				</div>	
 			</div>

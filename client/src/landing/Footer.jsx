@@ -43,15 +43,15 @@ return (
 					<button className="btn-newsletter">SIGN UP</button>
 				</div>
 				
-				
-				<div className="social-media-icons">
 				<h3>Follow us on:</h3>
-				<img src="/images/ig.svg" alt="instagram-icon" width="40" height="40"/>
-				<img src="/images/facebook.svg" alt="facebook-icon" width="40" height="40"/>
-				<img src="/images/linkedin.svg" alt="pnkedin-icon" width="40" height="40"/>
-				<img src="/images/google.svg" alt="google-icon" width="40" height="40"/>
-				<img src="/images/ri_youtube-fill.svg" alt="youtube-icon" width="40" height="40"/>
-				<img src="/images/twitter.svg" alt="twitter-icon" width="40" height="40"/>
+				<div className="social-media-icons">
+				
+				<img src="/images/ig.svg" alt="instagram-icon" width="35" height="35"/>
+				<img src="/images/facebook.svg" alt="facebook-icon" width="40" height="38"/>
+				<img src="/images/linkedin.svg" alt="pnkedin-icon" width="35" height="35"/>
+				<img src="/images/google.svg" alt="google-icon" width="35" height="35"/>
+				<img src="/images/ri_youtube-fill.svg" alt="youtube-icon" width="35" height="35"/>
+				<img src="/images/twitter.svg" alt="twitter-icon" width="35" height="35"/>
 				</div>
 			
 			</div>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
 .footer-container{
 	color: #fff;
-	height: 40vh;
+	height: 50vh;
 	padding: 20px;
 	width: 100%;
 	border: 1px solid #000;
@@ -87,4 +87,13 @@
 	height: 2rem;
 }
 
-
+.social-media-icons{
+	display: flex;
+    flex-direction: row;
+    object-fit: cover;
+}
+.social-media-icons img{
+	display: flex;
+    flex-direction: row;
+	margin: 10px;
+}

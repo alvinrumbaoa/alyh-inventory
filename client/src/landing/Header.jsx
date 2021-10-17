@@ -12,13 +12,13 @@ return (
 			<h1 className="logo">ALYH</h1>
 			</div>
 			
-			<ul>
-						<li className="list-item">Home</li>
-						<li className="list-item">Service</li>
-						<li className="list-item">About</li>
-						<li className="list-item">Contact us</li>
-						<li className="list-item"><Link to="/login">Login</Link></li>
-			</ul>	
+			<div className="navigation-list">
+						<button className="button-item">Home</button>
+						<button className="button-item">Service</button>
+						<button className="button-item">About</button>
+						<button className="button-item">Contact us</button>
+						<button className="button-item"><Link to="/login">Login</Link></button>
+			</div>	
 
 		</div>
 
