@@ -150,6 +150,7 @@
 .city-wave{
 	display: flex;
 	justify-content: center;
+	background-image: url(../images/city-wave.svg);
 }
 
 
@@ -171,7 +172,13 @@
 	background-position: center;
     cursor: pointer;
 }
-
+.carousel-btn span:hover {
+	background-image: url(../images/stars2.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);	
+}
 .carousel-btn span::before {
     
     content: "";
@@ -182,9 +189,9 @@
 }
 
 .carousel-btn span:hover::before {
-    background-image: url(../images/stars.svg);
+  	color: #37474F;
 }
 
 .carousel-btn span[data-quote="${active}"]::before {
-	background-image: url(../images/stars.svg);
+	color: #37474F;
 }

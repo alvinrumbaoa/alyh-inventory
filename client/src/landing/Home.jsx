@@ -48,7 +48,7 @@ const Home = (props) =>{
 
 
 	return(
-		<div>
+		<div > 
 			<div data-aos="fade-down" className="home-container">
 				<Header/>				
 				<div className="main-content">
@@ -88,7 +88,7 @@ const Home = (props) =>{
 					<button className="btn-getstarted">GET FREE TRIAL</button>
 				</div>
 			</div>
-			<div data-aos="fade-up" className="services-container">
+			<div className="services-container">
 			<h1>WHY ALYH INVENTORY MANAGEMENT SYSTEM?</h1>
 				<div className="services-grid">
 			
@@ -120,17 +120,17 @@ const Home = (props) =>{
 			
 			</div>
 
-			<div data-aos="fade-up" className="testimonials-container">
+			<div className="testimonials-container">
 				<div className="carousel-container">
-					<p className="quote-font">"{current.quote}"</p>
-					<p className="client-font">-{current.client}</p>
-					<div className="carousel-btn">
+					<p data-aos="fade-down"className="quote-font">"{current.quote}"</p>
+					<p data-aos="fade-up" className="client-font">-{current.client}</p>
+					<div  className="carousel-btn">
 						{
 							Object.keys(quotes).map(index => (
 								active?
-											<span onClick={e => handleClick(e)} data-quote={index} key={index}
+										<span data-aos="fade-up" onClick={e => handleClick(e)} data-quote={index} key={index}
 									/>
-								:<span onClick={e => handleClick(e)} data-quote={index} key={index}
+								:<span data-aos="fade-up" onClick={e => handleClick(e)} data-quote={index} key={index}
 								/>
 							))
 						
