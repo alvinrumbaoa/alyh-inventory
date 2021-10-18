@@ -26,10 +26,6 @@ const DashboardHome = ()=> {
 				<h1>Top Selling Items</h1>
 				
 			</div>
-			<div>
-				<h1>Top Seller Employees</h1>
-				
-			</div>
 		</div>
 	)
 }

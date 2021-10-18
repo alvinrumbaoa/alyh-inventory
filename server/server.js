@@ -5,8 +5,8 @@ const app = express();
 const cors = require("cors");   //middleware
 
 app.use(cookieParser());
-app.use(bodyParser.json({limit: "30mb", extended: true})); 
-app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
+app.use(express.json({limit: "30mb", extended: true})); 
+app.use(express.urlencoded({limit: "30mb", extended: true}));
 app.use(cors({
 	credentials: true,
 	origin: "http://localhost:3001",

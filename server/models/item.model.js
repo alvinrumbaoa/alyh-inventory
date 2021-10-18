@@ -21,7 +21,7 @@ const ItemSchema = new Schema({
     qoh:{
         type: Number,
         required: true
-    }
+    },
     date_added: {
         type: Date,
         default: Date.now
