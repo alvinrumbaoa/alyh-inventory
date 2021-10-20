@@ -1,64 +1,41 @@
 .dash-navigation{
-	height: 100vh;
-	top: 0;
-
-}
-
-.dropdown {
-	/* Border */
-	border: 1px solid rgba(0, 0, 0, 0.3);
 	display: flex;
-	flex-direction: column;
-	/* Reset list styles */
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 50vw;
-}
-
-.dropdown li {
-	/* Spacing */
-	padding: 8px;
-
-	/* Used to position the sub dropdown */
-	position: relative;
-}
-
-/* The sub dropdown */
-.dropdown ul {
-	/* Border */
-	border: 1px solid rgba(0, 0, 0, 0.3);
-
-	/* Hidden by default */
-	display: none;
-
-	/* Absolute position */
-	left: 0;
-	position: absolute;
-	top: 100%;
-
-	/* Reset styles */
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
-	/* Width */
-	width: 200px;
-}
-
-/* The second level sub dropdown */
-.dropdown ul ul {
-	left: 100%;
-	position: absolute;
 	top: 0;
 }
 
-/* Change background color of list item when being hovered */
-.dropdown li:hover {
-	background-color: rgba(0, 0, 0, 0.1);
-}
-
-/* Show the direct sub dropdown when hovering the list item */
-.dropdown li:hover > ul {
+.sidebar {
+	height: 100%;
+	width: 180px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
 	display: block;
-}
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+	color: #f1f1f1;
+  }
+  
+  /* Style the main content */
+  .main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+  }

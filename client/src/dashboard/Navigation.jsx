@@ -1,35 +1,28 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/dashboard/Navigation.css'
 
-
 const Navigation  = () => {
+
+		const [navbarOpen, setNavbarOpen] = useState(false);			
+		const dropDownHandler = ()=>{
+			setNavbarOpen(!navbarOpen);
+		
+
+		}
 	return (
 		<div className="dash-navigation">
-			<ul class="dropdown">
-				<li>Home</li>
-				<li>
-					<div>Patterns</div>
-					{/* <!-- First level sub dropdown --> */}
-					<ul>
-						<li>Layout</li>
-						<li>Input</li>
-						<li>
-							<div>Navigation</div>
-							{/* <!-- Second level sub dropdown --> */}
-							<ul>
-								<li>Breadcrumb</li>
-								<li>Dropdown</li>
-								<li>Menu</li>
-								<li>Nested dropdown</li>
-							</ul>
-						</li>
-						<li>Display</li>
-						<li>Feedback</li>
-					</ul>
-				</li>
-				<li>Products</li>
-				<li>About</li>
-			</ul>
+			<div class="sidebar">
+			<a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+			<a href="#services"><i class="fa fa-fw fa-wrench"></i> Customers</a>
+			<a href="#clients"><i class="fa fa-fw fa-user"></i> Deliveries</a>
+			<a href="#contact"><i class="fa fa-fw fa-envelope"></i> Items</a>
+			<a href="#contact"><i class="fa fa-fw fa-envelope"></i> Employee</a>
+			<a href="#contact"><i class="fa fa-fw fa-envelope"></i> Reports</a>
+			<a href="#contact"><i class="fa fa-fw fa-envelope"></i> Sales</a>
+			<div className><a href="#settings"><i class="fa fa-fw fa-wrench"></i> Settings</a></div>
+			</div>
+
+			
 		</div>
 	)
 }

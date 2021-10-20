@@ -18,14 +18,20 @@ const CustomerSchema = new Schema({
         lowercase: true,
         validate: [isEmail, 'Please enter a valid email']
     },
-    password: {
+    address: {
         type: String,
         required: [true, 'Please enter a valid password'],
         minlength: [6, 'Minimum password length must be 6 characters']
     },
-    register_date: {
+    DOB: {
         type: Date,
-        default: Date.now
+        required: [true, 'Please enter a valid date'],
+    
+    },
+    phoneNumber:{
+        type: Number,
+        required: [true, 'Please enter a valid phone number'],
+        minlength: [10, "Please enter a valid phone number format XXXXXXXXXX"]
     }
 },{timestamps: true});
 

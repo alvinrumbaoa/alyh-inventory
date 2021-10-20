@@ -1,12 +1,15 @@
 import React from 'react'
-
+import '../styles/dashboard/DashboardHome.css'
 const DashboardHome = ()=> {
 	return (
-		<div>
-			<h1>Welcome back , username </h1>
+		<div className="home-dashboard">
+			<div className="user-welcome">
+					<h1>Welcome back , username </h1>
+			</div>
+		
 			{/* Reports */}
 			{/* Chart Sales */}
-			<div className="">
+			<div className="products">
 				<h1>Count of products</h1>
 
 			</div>
