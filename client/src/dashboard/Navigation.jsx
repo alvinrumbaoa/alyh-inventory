@@ -1,71 +1,35 @@
 import React, { useEffect, useState } from 'react'
+import '../styles/dashboard/Navigation.css'
+
 
 const Navigation  = () => {
 	return (
 		<div className="dash-navigation">
-			<p>Dashboard</p>
-			<p>Customers</p>
-				<ul>
-					<li>View Customer</li>
-					<li>Create Customer</li>
-					<li>Update Customer</li>
-				</ul>
-			<p>Employees</p>
-				<ul>
-					<li>View Employees</li>
-					<li>Create Employees</li>
-					<li>Update Employees</li>
-				</ul>
-			<p>Items</p>
-				<ul>
-					<li>View Items</li>
-					<li>Create Items</li>
-					<li>Update Items</li>
-				</ul>
-			<p>Sales Orders</p>
-				<ul>
-					<li>View Sales</li>
-					<li>Sales Reports</li>
-					<li>New Sales Order</li>
-				</ul>
-			<p>Deliveries</p>
-				<ul>
-					<li>View Deliveries</li>
-					<li>Delivery Ticket</li>
-					<li>Location</li>
-					<li>Delivery Reports</li>
-				</ul>
-			<p>Invoices</p>
-				<ul>
-					<li>View Invoices</li>
-					<li>Pending Billingt</li>
-					<li>Print Orders</li>
-				</ul>
-			<p>Referral</p>
-				<ul>
-					<li>Add Referral</li>
-					<li>View All Referrals</li>
-				</ul>
-			<p>Physicians</p>
-				<ul>
-					<li>Add Physician</li>
-					<li>View All Physicianss</li>
-				</ul>
-			<p>Document</p>
-				<ul>
-					<li>Add Physician</li>
-					<li>View All Physicianss</li>
-				</ul>
-			<p>Vendors</p>
-				<ul>
-					<li>Add Vendor</li>
-					<li>View All Vendors</li>
-				</ul>
-				<p>Reports</p>
-				<ul>
-					<li>Monthly Report</li>
-					<li>Sales Report</li>
-				</ul>
+			<ul class="dropdown">
+				<li>Home</li>
+				<li>
+					<div>Patterns</div>
+					{/* <!-- First level sub dropdown --> */}
+					<ul>
+						<li>Layout</li>
+						<li>Input</li>
+						<li>
+							<div>Navigation</div>
+							{/* <!-- Second level sub dropdown --> */}
+							<ul>
+								<li>Breadcrumb</li>
+								<li>Dropdown</li>
+								<li>Menu</li>
+								<li>Nested dropdown</li>
+							</ul>
+						</li>
+						<li>Display</li>
+						<li>Feedback</li>
+					</ul>
+				</li>
+				<li>Products</li>
+				<li>About</li>
+			</ul>
 		</div>
 	)
 }

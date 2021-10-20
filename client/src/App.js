@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import './App.css';
 import {Switch, Route, } from "react-router-dom";
 import Home from "./landing/Home";
@@ -9,6 +10,9 @@ import Dashboard from "./dashboard/Dashboard";
 import Contactus from "./landing/Contactus"
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  
   return (
     <div className="App">
           <Switch >
@@ -22,6 +26,7 @@ function App() {
                 <Route path = "/login" component = { Login }/> 
                 <Route path = "/signup" component = { Signup }/>
                 <Route path = "/dashboard" component = { Dashboard }/>
+                
                   {/* Customer */}
                   {/* Item Inquiry */}
                   {/* Order */} 

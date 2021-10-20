@@ -6,9 +6,9 @@ const DashboardHome = ()=> {
 			<h1>Welcome back , username </h1>
 			{/* Reports */}
 			{/* Chart Sales */}
-			<div>
+			<div className="">
 				<h1>Count of products</h1>
-		
+
 			</div>
 			<div>
 				<h1>Products out of stock</h1>
@@ -24,6 +24,10 @@ const DashboardHome = ()=> {
 			</div>
 			<div>
 				<h1>Top Selling Items</h1>
+				
+			</div>
+			<div>
+				<h1>Total Sales:</h1>
 				
 			</div>
 		</div>
