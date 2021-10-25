@@ -3,6 +3,11 @@ const Schema = mongoose.Schema;
 const { isEmail } = require('validator');
 
 const CustomerSchema = new Schema({
+    id:{
+        type: Number,
+        required: true,
+        unique: true,
+    },
     firstName: {
         type: String,
         required: true
@@ -10,6 +15,10 @@ const CustomerSchema = new Schema({
 	lastName: {
         type: String,
         required: true
+    },
+    middleInitial:{
+        type: String,
+        maxLength: [1, "Initials only"]
     },
     email: {
         type: String,
@@ -28,11 +37,16 @@ const CustomerSchema = new Schema({
         required: [true, 'Please enter a valid date'],
     
     },
-    phoneNumber:{
+    primaryPhone:{
         type: Number,
         required: [true, 'Please enter a valid phone number'],
         minlength: [10, "Please enter a valid phone number format XXXXXXXXXX"]
-    }
+    },
+    mobilePhone:{
+        type: Number,
+        required: [true, 'Please enter a valid phone number'],
+        minlength: [10, "Please enter a valid phone number format XXXXXXXXXX"]
+    },
 },{timestamps: true});
 
 module.exports = Customer = mongoose.model('customer',CustomerSchema);

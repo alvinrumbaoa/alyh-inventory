@@ -8,6 +8,12 @@ import About from "./landing/About";
 import Services from "./landing/Services";
 import Dashboard from "./dashboard/Dashboard";
 import Contactus from "./landing/Contactus"
+import ViewCustomer from "./dashboard/customer/ViewCustomer";
+import AddCustomer from "./dashboard/customer/AddCustomer";
+
+
+
+
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -27,7 +33,8 @@ function App() {
                 <Route path = "/signup" component = { Signup }/>
                 <Route path = "/dashboard" component = { Dashboard }/>
                 
-                  {/* Customer */}
+                <Route path = "/customers" component = { ViewCustomer }/>
+                <Route path = "/createcustomer" component = { AddCustomer }/>
                   {/* Item Inquiry */}
                   {/* Order */} 
                   {/* Cart  */}
