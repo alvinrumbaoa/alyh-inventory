@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
+import axios from 'axios';	
+
 
 export default function AddCustomer() {
 	const [id, setID] = useState(0);
 	const [firstName, setFirstName] = useState("");
 	const [lastName, setLastName] = useState("");
 	const [middleInitial, setMiddleInitial] = useState("");
-	const [email, setEemail] = useState("");
+	const [email, setEmail] = useState("");
 	const [address, setAddress] = useState("");
 	const [dateOfBirth, setDateOfBirth] = useState("0/0/000");
 	const [primaryPhone, setPrimaryPhone] = useState(0);

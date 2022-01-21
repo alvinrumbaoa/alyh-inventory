@@ -2,14 +2,14 @@ const CustomerController = require('../controllers/customer.controller');
 
 module.exports = function(app) {
 	// get all Customer
-	app.get("/api/customer", CustomerController.getAllCustomer);
+	app.get("/api/customers", CustomerController.getAllCustomer);
 	// create Customer
-	app.post("/api/customer", CustomerController.createCustomer);
+	app.post("/api/customers", CustomerController.createCustomer);
 	// get one Customer
 	// create a param variable called "id"
-	app.get("/api/customer/:id", CustomerController.getOneCustomer);
+	app.get("/api/customers/:id", CustomerController.getOneCustomer);
 	// update Customer
-	app.put("/api/customer/:id", CustomerController.updateCustomer);
+	app.put("/api/customers/:id", CustomerController.updateCustomer);
 	// delete Customer
-	app.delete("/api/customer/:id", CustomerController.deleteCustomer);
+	app.delete("/api/customers/:id", CustomerController.deleteCustomer);
 }
